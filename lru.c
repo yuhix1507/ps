@@ -85,8 +85,8 @@ static void simulate(const int pages[], int n, int capacity,
         loaded_at[i] = -1;
     }
 
-    printf("\n>>> KỊCH BẢN %d <<<\n", scenario);
-    fprintf(out, "\n>>> KỊCH BẢN %d <<<\n", scenario);
+    printf("\n>>> KỊCH BẢN %d <<< Group1-BaoHuy,VanDat,ManhCuong,DinhAnh\n", scenario);
+    fprintf(out, "\n>>> KỊCH BẢN %d <<< Group1-BaoHuy,VanDat,ManhCuong,DinhAnh\n", scenario);
     printf("\n=== MÔ PHỎNG THUẬT TOÁN LRU (Frames = %d) ===\n", capacity);
     fprintf(out, "\n=== MÔ PHỎNG THUẬT TOÁN LRU (Frames = %d) ===\n", capacity);
     printf("Bước\tTrang\tTrạng thái RAM\tKết quả\tTrang bị thay\n");
